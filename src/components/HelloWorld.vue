@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1 class="text-4xl text-center font-semibold text-bubble-gum bg-bermuda">{{ msg }}</h1>
+    <h1 class="text-4xl text-center font-semibold">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
